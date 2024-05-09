@@ -2,7 +2,7 @@ import sqlite3
 
 # Step 1: Import the SQLite library
 # Step 2: Connect to the database (or create a new one if it doesn't exist)
-conn = sqlite3.connect('naruto.db')
+conn = sqlite3.connect('database/naruto.db')
 
 # Step 3: Create a cursor object to interact with the database
 cursor = conn.cursor()
