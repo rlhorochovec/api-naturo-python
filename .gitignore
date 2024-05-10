@@ -1,0 +1,3 @@
+.venv
+*.db-journal
+database/__pycache__
